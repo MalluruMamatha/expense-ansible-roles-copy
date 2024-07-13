@@ -1,0 +1,6 @@
+login_password: ExpenseApp@1
+login_host: db.malluru.online
+login_user: root
+DB_HOST: db.malluru.online
+app_location: /app
+component: backend

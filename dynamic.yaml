@@ -1,0 +1,15 @@
+- name: install few packages
+  hosts: all
+  become: yes
+  tasks:
+  - name: install postfix
+    ansible.builtin.dnf:
+      name: postfix
+      state: latest
+
+# for this playbook aws_ec2.yaml is the inventory
+
+# run the play book like this
+
+# ansible-playbook -i aws_ec2.yaml -e ansible_user=ec2-user -e 
+# ansible_password=DevOps321 dynamic.yaml
