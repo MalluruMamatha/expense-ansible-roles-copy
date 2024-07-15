@@ -2,4 +2,4 @@ login_user: root
 login_host: db-prod.malluru.online
 login_password: ExpenseApp@1
 DB_HOST: db-prod.malluru.online
-BACKEND_API_URL: backend.app-prod.malluru.online
+BACKEND_HOST: backend.app-prod.malluru.online
