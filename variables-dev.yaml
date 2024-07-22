@@ -3,3 +3,4 @@ login_host: db-dev.malluru.online
 login_password: ExpenseApp1
 DB_HOST: db-dev.malluru.online
 BACKEND_HOST: backend.app-dev.malluru.online
+nexus_url: nexus.malluru.online:8081
